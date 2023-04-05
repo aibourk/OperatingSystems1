@@ -1,2 +1,5 @@
 # OperatingSystems1
-The first repository that I will use to learn Git commands
+
+
+## Lab 1
+Results: [Screenshot](https://github.com/aibourk/OperatingSystems1/blob/main/lab1/lab1.JPG)
