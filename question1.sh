@@ -1,6 +1,7 @@
 #!/bin/bash
 COLUMNS=1
 
+
 PS3="Select your option please: "
 
 echo "* Bash Commands *"
