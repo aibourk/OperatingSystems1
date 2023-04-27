@@ -1,7 +1,6 @@
 #!/bin/bash
 COLUMNS=1
 
-
 PS3="Select your option please: "
 
 echo "* Bash Commands *"
@@ -17,7 +16,7 @@ do
          echo "System Path:"
          echo $PATH;;
       "Display command history")
-         history;;
+         # history;;
       "Backup files")
          read -p "Please specify the directory:  " DIR
          mkdir BackupFolder
