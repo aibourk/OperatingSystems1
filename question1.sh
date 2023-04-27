@@ -17,6 +17,9 @@ do
          echo $PATH;;
       "Display command history")
          # history;;
+         HISTFILE=~/.bash_history   # Or wherever you bash history file lives
+         set -o history             # enable history
+         history | grep git;;
       "Backup files")
          read -p "Please specify the directory:  " DIR
          mkdir BackupFolder
