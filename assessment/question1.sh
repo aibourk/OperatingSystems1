@@ -1,4 +1,7 @@
 #!/bin/bash
+
+export PATH=$PATH:assessment/question1.sh
+
 COLUMNS=1
 
 PS3="Select your option please: "
@@ -16,10 +19,7 @@ do
          echo "System Path:"
          echo $PATH;;
       "Display command history")
-         # history;;
-         HISTFILE=~/.bash_history   # Or wherever you bash history file lives
-         set -o history             # enable history
-         history | grep git;;
+         history;;
       "Backup files")
          read -p "Please specify the directory:  " DIR
          mkdir BackupFolder
