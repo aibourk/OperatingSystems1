@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=$PATH:assessment/question1.sh
+export PATH=$PATH:/assessment/question1.sh
 
 COLUMNS=1
 
