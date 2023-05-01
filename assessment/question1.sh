@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export PATH=$PATH:/assessment
-
 COLUMNS=1
 
 PS3="Select your option please: "
